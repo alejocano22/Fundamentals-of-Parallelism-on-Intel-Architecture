@@ -1,4 +1,0 @@
-#PBS -l nodes=2
-cd $PBS_O_WORKDIR
-cat $PBS_NODEFILE
-mpirun -machinefile $PBS_NODEFILE ./HelloMPI
